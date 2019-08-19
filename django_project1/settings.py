@@ -28,9 +28,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['aalqannas.com','www.aalqannas.com','178.128.33.0']
+ALLOWED_HOSTS = ['aalqannas.com','www.aalqannas.com','178.128.33.0','localhost']
 
 
 # Application definition
