@@ -30,7 +30,7 @@ SECRET_KEY = config['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['aalqannas.com','www.aalqannas.com','178.128.33.0','localhost']
+ALLOWED_HOSTS = ['aalqannas.com','www.aalqannas.com','178.128.33.0','localhost','127.0.0.1']
 
 
 # Application definition
